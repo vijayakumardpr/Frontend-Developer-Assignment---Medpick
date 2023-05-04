@@ -5,7 +5,7 @@ import Signin from './Signin'
 
 const Main = () => {
   return (
-    <div className='p-10 flex gap-12 justify-center md:flex flex-col'>
+    <div className='p-10 flex flex-col gap-12 justify-center md:flex-row'>
         <Features/>
         <Signin/>
     </div>
